@@ -29,12 +29,11 @@
             print $rec['coment'];
             print '<br>';
         }
-    
-        $dbh= null;
-
     } catch (PDOException $e) {
         print 'データベース接続エラー: ' . $e->getMessage();
     }
+
+    $dbh= null;
     ?>
     <p><a href="mein.php">メインメニューに戻る</a></p>
 </body>
