@@ -34,11 +34,11 @@
             print $rec['coment'];
             print '<br><br>';
         }
-        $dbh = null;
-
     } catch (PDOException $e) {
         print 'データベース接続エラー: ';
     }
+
+    $dbh = null;
     ?>
 </body>
 </html>
