@@ -1,3 +1,0 @@
-[->19] character-set-server=utf8
-[->30] character-set-server=utf8
-[->31] skip-character-set-client-handshake
